@@ -1,0 +1,35 @@
+.exercise {
+    display: flex; }
+  
+  .exercise-title {
+    text-align: center; }
+  
+  .exercise article:nth-child(even) {
+    color: red;
+    font-size: 1rem;
+    border: 1px solid green;
+    text-align: center; }
+  
+  .exercise article:nth-child(odd) {
+    color: blue;
+    font-size: 1rem;
+    border: 1px solid green;
+    text-align: center; }
+  
+  .exercise-title {
+    color: green;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-underline-offset: 6px; }
+  
+  .exercise-container {
+    border: 1px solid red;
+    padding: 10px; }
+  
+  .footer article p {
+    color: green;
+    font-size: 24px;
+    border: 1px solid blue;
+    padding: 20px; }
+  
+  /*# sourceMappingURL=style.css.map */
